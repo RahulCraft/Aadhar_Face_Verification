@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+
+# Environment variables
+.env
+
+# VSCode
+.vscode/
+
+# Mac & system files
+.DS_Store
+Thumbs.db
+
+# Pip dependencies
+pip-wheel-metadata/
+*.bak
