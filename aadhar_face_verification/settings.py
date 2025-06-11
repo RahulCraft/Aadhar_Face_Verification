@@ -14,12 +14,11 @@ from pathlib import Path
 import os
 import dj_database_url
 from dotenv import load_dotenv
-from mongoengine import connect
 from decouple import config
 
 load_dotenv()
 
-MONGO_URI = os.getenv("MONGO_URI")
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -33,8 +32,6 @@ SECRET_KEY = 'django-insecure-6j*z*4v=y@=5e$^gyfz@uy=e)ucw393c$xzr&(@=y48%*y_lc1
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -83,16 +80,6 @@ WSGI_APPLICATION = 'aadhar_face_verification.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'aadhar_face_verification',
-        'USER': 'root',
-        'PASSWORD': 'Abcd#^1234',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
 
 # DATABASES = {
 #     'default': {
