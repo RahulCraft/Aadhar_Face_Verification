@@ -2,8 +2,13 @@
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 testing 54535
 >>>>>>> dev
+=======
+
+practice
+>>>>>>> d926f3449d7ddd6bae2cc427a1e8e4cee61b4201
 
 This project implements an automated Aadhaar verification system using Deep Learning for face recognition and OCR (Optical Character Recognition) for Date of Birth (DOB) extraction from Aadhaar card images.
 It is designed to verify the identity of users by matching their real-time selfie with the photograph on their Aadhaar card, and extracting the DOB for further authentication or validation steps.
@@ -46,5 +51,4 @@ Aadhaar image is passed through OCR for DOB extraction.
 Both images are preprocessed and passed to DeepFace for comparison.
 If confidence threshold ≥ 0.5 (50%), verification is successful.
 Response is returned in structured JSON format.
-
 
